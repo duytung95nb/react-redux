@@ -1,0 +1,28 @@
+
+/* table */ 
+.datatable {
+    border: 1px solid #AFAFAF;
+}
+.datatable__content {
+    width: 100%;
+    height: 280px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.datatable__content__table {
+    width: 100%;
+    font-size: 20px;
+}
+.datatable__content__table td, th {
+    text-align: left;
+    padding: 8px;
+}
+.datatable__content__table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* end of table */
+/* modify from bootstrap table */
+.pagination {
+    margin: 0 !important;
+}
+/* end of modify from bootstrap table */

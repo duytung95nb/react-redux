@@ -1,0 +1,48 @@
+.todo {
+    border: 1px solid #AFAFAF;
+    position: relative;
+}
+.todo__body {
+    padding: 4px;
+    height: 280px;
+    overflow-y: auto;
+}
+.todo__body__info {
+    width: 100%;
+}
+.todo__body__info__left {
+    float: left;
+    width: 20%;
+}
+.todo__body__info__right {
+    float: left;
+    width: 30%;
+}
+.todo__body__info__middle {
+    float: left;
+    width: 50%;
+}
+.todo__body__table {
+    padding-top: 10px;
+}
+.todo__body__table table {
+    table-layout: fixed;
+}
+/* components */
+.completed-text {
+    text-decoration: line-through;
+    color: #818181;
+}
+.table__row{
+}
+.delete-button {
+    display: none;
+}
+/* end of components */
+
+/* icon */
+.glyphicon.glyphicon-empty-circle::before {
+    content:"\25cf";
+    font-size: 3em;
+}
+/* end of icon */

@@ -1,0 +1,31 @@
+.widget-header {
+    background-color: #1E5281;
+    color: #FFFFFF;
+    padding: 8px 16px;
+    min-height: 40px;
+}
+.widget-header__title-area {
+}
+.widget-header__tool-area {
+    float: right;
+}
+.icon-container {
+    display: inline-block;
+    padding: 0 0 0 8px;
+}
+.icon-button {
+    border: none;
+    background: transparent;
+}
+/* button container */
+.buttons-container {
+}
+.buttons-container__title {
+    
+}
+.buttons-container__content {
+    padding: 4px;
+    border: 1px solid #EEEEEE;
+    min-height: 50px;
+}
+/* end of button container */

@@ -1,0 +1,31 @@
+@import "~assets/styles/foundation/helpers/bem";
+
+@include bem-b('dashboard') {
+  @include bem-e('title') {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #1E5281;
+  }
+  @include bem-e('body') {
+    padding-top: 30px; 
+  }
+}
+
+.widget--expanding {
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  transition: ease-in-out 0.2s;
+}
+
+.widget--expanding > div {
+  height: 100%;
+}
+
+.widget--expanding > div > div {
+  height: 100%;
+}
